@@ -1,7 +1,15 @@
+html {background-color: forestgreen}
+
 header {
   background-color: green
-  color: goldenrod
+  color: goldenrod;
   text-align: center;
 
 
 }
+.toolbar{
+  position: sticky;
+  top:7px;
+  margin: 0px;
+  height: 45px;
+  background-color: goldenrod;
