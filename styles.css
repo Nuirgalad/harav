@@ -1,10 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+/* font-family: 'Cinzel', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Crimson Text', serif; */
+
+:root{
+  --header-font: 'Cinzel', serif;
+  --text-font: 'Cormorant Garamond', serif;
+  --heading-font: 'Crimson Text', serif;
+}
+
 html {background-color: forestgreen}
 
-header {
-  background-color: green
-  color: goldenrod;
+.header {
+  /* background-image: url(NuirgaladFlag.png) ;*/
+  background-size: cover;
+  background-color: darkgreen;
+  color: gold;
   text-align: center;
-
+  width: 100%;
+  height: 150px;
+  top: 0px;
+  font-family: var(--header-font);
 
 }
 .toolbar{
@@ -13,3 +29,11 @@ header {
   margin: 0px;
   height: 45px;
   background-color: goldenrod;
+}
+h4 {
+  text-align: center;
+  font-family: var(--header-font);
+}
+p{
+  font-family: var(--text-font);
+}
