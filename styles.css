@@ -7,9 +7,14 @@ font-family: 'Crimson Text', serif; */
   --header-font: 'Cinzel', serif;
   --text-font: 'Cormorant Garamond', serif;
   --heading-font: 'Crimson Text', serif;
+
+  --background-color: forestgreen;
+  --base-color: goldenrod;
+  --foreground-color: gold;
+  --accent-color: green;
 }
 
-html {background-color: forestgreen}
+html {background-color: var(--background-color)}
 
 .header {
   /* background-image: url(NuirgaladFlag.png) ;*/
@@ -21,14 +26,50 @@ html {background-color: forestgreen}
   height: 150px;
   top: 0px;
   font-family: var(--header-font);
+margin-top: -21px;
+
+
 
 }
 .toolbar{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
   position: sticky;
   top:7px;
   margin: 0px;
   height: 45px;
-  background-color: goldenrod;
+  background-color: var(--base-color);
+}
+ a{
+   text-decoration: none;
+
+ }
+.toolbar > a > p{
+  color: var(--accent-color);
+  font-family:var(--heading-font);
+  font-size: 20px;
+
+}
+.toolbar > *{
+  padding: 5px;
+  margin: 5px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+
+}
+.row > *{
+  margin: 10px ;
+  min-width: 20px ;
 }
 h4 {
   text-align: center;
