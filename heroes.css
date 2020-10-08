@@ -8,10 +8,11 @@ font-family: 'Crimson Text', serif; */
   --text-font: 'Cormorant Garamond', serif;
   --heading-font: 'Crimson Text', serif;
 
-  --background-color: forestgreen;
+  --background-color: rebeccapurple;
   --base-color: goldenrod;
   --foreground-color: gold;
-  --accent-color: darkgreen;
+  --accent-color: blue;
+
 }
 
 html {background-color: var(--background-color)}
