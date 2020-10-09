@@ -23,6 +23,9 @@ html {background-color: var(--background-color)}
 
 
 }
+body{
+  margin: 0
+}
 
 #Return{
   color: var(--accent-color);
