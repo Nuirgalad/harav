@@ -16,6 +16,18 @@ font-family: 'Crimson Text', serif; */
 
 html {background-color: var(--background-color)}
 
+#Headerb{
+  text-align: center;
+  font-family: var(--heading-font);
+  color: var(--foreground-color);
+
+
+}
+
+#Return{
+  color: var(--accent-color);
+  text-align: center;
+}
 .header {
   /* background-image: url(NuirgaladFlag.png) ;*/
   background-size: cover;
