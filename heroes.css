@@ -27,11 +27,74 @@ html {background-color: var(--background-color)}
   height: 150px;
   top: 0px;
   font-family: var(--header-font);
-margin-top: -21px;
+margin-top: -21px;}
+.hero {
+ font-size:13px;
+ background-color: #570098;
+ border: 2px solid;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 4px;
 
-
-
+  min-height:160px;
+  width:320px;
+  float:left;
+  margin:15px;
+  margin-right:5px;
 }
+.hero h2 {
+  margin-left:0px;
+  padding-bottom:0px;
+  margin-bottom:0px;
+  line-height:20px;
+  font-size:18px;
+  font-family: var(heading-font);
+}
+.hero .hero-type {
+  text-align:center;
+  font-style:italic;
+}
+
+.hero .hero-text {
+  margin-top:5px;
+}
+
+.hero .hero-image {
+ width:64px;height:64px;
+ margin-left:20px;
+ padding-top:2px;
+ padding-bottom:2px;
+ float:left;
+ border:1px solid white;
+    border-top-left-radius: 2em;
+    position:relative;
+    left:-20px;
+ min-height:124px;
+ background-color:forestgreen;
+ /*background-image:url(skeleton.png); */
+ background-size:120px;
+ background-position:middle center;
+}
+
+
+.more-info {
+  float:right;
+  border:1px solid white;
+  width:105px;
+  padding:5px;
+text-align:center;
+border-radius:4px;
+background-color:#0043ff;
+color:white;
+  font-family: var(--header-font)
+  font-weight:bold;
+  font-size:20px;
+  margin-right:10px;
+}
+.more-info a{
+  color:white;
+}
+
+
 .toolbar{
   display: flex;
   flex-direction: row;
