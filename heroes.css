@@ -8,10 +8,10 @@ font-family: 'Crimson Text', serif; */
   --text-font: 'Cormorant Garamond', serif;
   --heading-font: 'Crimson Text', serif;
 
-  --background-color: rebeccapurple;
+  --background-color: indigo;
   --base-color: goldenrod;
   --foreground-color: gold;
-  --accent-color: blue;
+  --accent-color: darkblue;
 
 }
 
@@ -32,7 +32,7 @@ body{
 margin-top: -21px;}
 .hero {
  font-size:13px;
- background-color: #570098;
+ background-color: #6800b3;
  border: 2px solid;
     border-top-left-radius: 2em;
     border-top-right-radius: 4px;
@@ -72,7 +72,6 @@ margin-top: -21px;}
     left:-20px;
  min-height:124px;
  background-color:forestgreen;
- /*background-image:url(skeleton.png); */
  background-size:120px;
  background-position:middle center;
 }
