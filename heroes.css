@@ -104,7 +104,7 @@ body {
     color:white
 }
 
-.toolbar{
+.toolbar {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -112,9 +112,11 @@ body {
     align-items: center;
 
     position: sticky;
+    overflow: hidden;
     top:7px;
-    margin: 0px;
+    margin: 0;
     height: 45px;
+    width: 100%;
     background-color: var(--base-color)
 }
 

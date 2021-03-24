@@ -20,18 +20,22 @@ html {
     background-color: var(--background-color)
 }
 
-#Headerb {
-    text-align: center;
-    font-family: var(--heading-font);
-    color: var(--foreground-color)
-}
-
 body {
     margin: 0
 }
 
+p {
+    font-family: var(--text-font)
+}
+
+h4 {
+    text-align: center;
+    font-family: var(--header-font)
+}
+
 a {
     color: var(--accent-color);
+    text-decoration: none;
     text-align: center
 }
 
@@ -52,6 +56,12 @@ a:hover {
     margin-top: -21px
 }
 
+#Headerb {
+    text-align: center;
+    font-family: var(--heading-font);
+    color: var(--foreground-color)
+}
+
 .toolbar {
     display: flex;
     flex-direction: row;
@@ -60,14 +70,12 @@ a:hover {
     align-items: center;
 
     position: sticky;
+    overflow: hidden;
     top:7px;
-    margin: 0px;
+    margin: 0;
     height: 45px;
+    width: 100%;
     background-color: var(--base-color)
-}
-
-a{
-     text-decoration: none
 }
 
 .toolbar > a > p{
@@ -95,11 +103,6 @@ a{
     min-width: 20px
 }
 
-h4 {
-    text-align: center;
-    font-family: var(--header-font)
-}
-
-p{
-    font-family: var(--text-font)
+#return {
+    text-align: center
 }
